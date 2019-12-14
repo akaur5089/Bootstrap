@@ -1,0 +1,105 @@
+@media (max-width: 1500px) {
+
+body {
+  background-color:#ADD8E6;
+}
+
+p {
+
+  font-style: italic;
+}
+
+a {
+  color:black;
+  background-color: yellow;
+}
+.heading2 {
+  font-size:22pt;
+  font-family: courier;
+}
+
+#nav_menu {
+  background-color:darkgrey;
+  border:solid;
+  border-color:white;
+}
+
+ul {
+  text-align: left;
+  background:lightgrey;
+  margin:5px;
+  border:solid;
+  border-color:white;
+}
+
+ul li {
+  list-style-type:square;
+}
+
+ol {
+  text-align: left;
+  background:lightgrey;
+  margin:5px;
+  border:solid;
+  border-color:white;
+}
+
+img {
+  border:1px solid yellow;
+  border-radius:7px;
+  padding:5px;
+  width:450px;
+  max-width:100%;
+  height:auto;
+}
+
+.box_table>table
+{
+  border-width:1px;
+  border-style: dashed;
+  border-color: white;
+  border-collapse: collapse;
+  width: 50%;
+}
+.box_table>table th, .box_table>table td {
+  border: 2.5px solid white;
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.box_table>table th {
+  background-color: lightgrey;
+}
+
+.box_table>table tr:nth-child(even) {
+  background-color:yellow;
+}
+
+/* Attribute added to an element when the browser mouse is hovered over it*/
+.box_table>table tr:hover {
+  background-color:pink;
+}
+
+iframe {
+  margin:10px;
+  border:solid;
+  border-color:yellow;
+  border-width: thick;
+}
+
+#form_radio {
+  font-size: 15pt;
+  font-family: monospace;
+  background-color: yellow;
+  margin: 40px;
+}
+
+@media print {
+
+  .screen_only {
+  display:none;
+  }
+}
+
+}

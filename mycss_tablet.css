@@ -1,0 +1,27 @@
+@media (max-width: 320px) {
+
+body {
+  background-color:#C0C0C0;
+}
+
+.heading2 {
+  color: white;
+}
+
+#nav_menu {
+  background-color:#ADD8E6;
+  border:solid;
+  border-color:white;
+}
+
+ul {
+  background:lightgrey;
+  border-color:white;
+}
+
+ul li {
+  list-style-type:circle;
+}
+
+
+}
